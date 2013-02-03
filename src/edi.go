@@ -5,10 +5,11 @@ import "./parser"
 
 var input string
 var prompt string
-
+var buffer []string
 
 func main() {
     fmt.Print(prompt)
     fmt.Scan(&input)
-    fmt.Println(parser.Parse(input))
+    expr := parser.Parse(input)
+    fmt.Println(expr.Cmd)
 }
