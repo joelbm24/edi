@@ -9,6 +9,7 @@ TODO's:
     - save txt into a buffer
     - save the buffer into a file
     - implement some basic commands
+    - implement regex
 
 FUTURE:
     - Add support for syntax highlighting
