@@ -9,3 +9,7 @@ TODO's:
     - save txt into a buffer
     - save the buffer into a file
     - implement some basic commands
+
+FUTURE:
+    - Add support for syntax highlighting
+    - support for config file
